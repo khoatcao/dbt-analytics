@@ -1,0 +1,8 @@
+version : 2
+
+sources : 
+  - name: devices
+    loaded_at_field: _airbyte_emmitted_at 
+  
+  - name : four_weekly_active_users 
+    loaded_at_field : _airbyte_emitted_at
