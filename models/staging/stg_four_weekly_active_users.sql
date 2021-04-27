@@ -1,3 +1,7 @@
+{{config(materialized = 'table',sort = 'timestamp')}}
+
+
+
 select 
         timestamp(CONCAT(SUBSTR( ga_date,1,4),'-',SUBSTR( ga_date,5,2),'-',SUBSTR( ga_date,7,2))) as date,
         ga_date, 

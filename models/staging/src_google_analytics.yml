@@ -6,3 +6,18 @@ sources :
   
   - name : four_weekly_active_users 
     loaded_at_field : _airbyte_emitted_at
+  - name : locations 
+    loaded_at_field : _airbyte_emitted_at
+  - name : month_active_users 
+    loaded_at_field : _airbyte_emitted_at 
+  - name : pages 
+    loaded_at_field : _airbyte_emmitted_at 
+  - name : traffic_sources 
+    loaded_at_field : _airbyte_emmitted_at
+  - name : two_weekly_active_users
+    loaded_at_field : _airbyte_emitted_at 
+  - name : wbesite_overview 
+    loaded_at_field : _airbyte_emitted_at 
+  - name : weekly_active_users 
+    loaded_at_field : _airbyte_emitted_at 
+  
